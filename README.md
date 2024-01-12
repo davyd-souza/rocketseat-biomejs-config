@@ -135,4 +135,4 @@ Currently there's no support for Next linting on Biome, but there's an [issue op
 
 ## Reference
 
-https://github.com/biomejs/biome/discussions/3#eslint-plugin-jsx-a11y
+[Linter rules from other sources](https://github.com/biomejs/biome/discussions/3#eslint-plugin-jsx-a11y)

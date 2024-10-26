@@ -4,7 +4,7 @@
 	"private": false,
 	"description": "BiomeJS config inspired by Rocketseat's eslint config",
 	"repository": {
-		"url": "davyd-souza/biomejs-config-rocketseat"
+		"url": "davyd-souza/rocketseat-biomejs-config"
 	},
 	"exports": {
 		"./next": "./next.json",

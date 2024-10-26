@@ -1,5 +1,5 @@
 {
-	"name": "biomejs-config-rocketseat",
+	"name": "rocketseat-biomejs-config",
 	"version": "1.0.0",
 	"private": false,
 	"description": "BiomeJS config inspired by Rocketseat's eslint config",

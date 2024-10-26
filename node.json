@@ -3,41 +3,8 @@
 	"organizeImports": {
 		"enabled": true
 	},
-  "extends": ["./formatter.json"],
+	"extends": ["./formatter.json", "./sources/standard.json", "./sources/typescript-eslint.json"],
 	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"a11y": {
-				"useValidAriaProps": "warn",
-        "useValidAriaValues": "warn",
-				"noAriaUnsupportedElements": "warn",
-        "useAriaPropsForRole": "warn",
-				"noRedundantAlt": "warn",
-        "useAltText": "warn",
-				"noSvgWithoutTitle": "warn"
-			},
-      "complexity": {
-        "noUselessEmptyExport": "warn",
-        "useOptionalChain": "warn"
-      },
-			"correctness": {
-				"noUnusedVariables": "error"
-			},
-      "nursery": {
-        "useGroupedTypeImport": "warn"
-      },
-      "style": {
-        "noNonNullAssertion": "warn",
-        "noUnusedTemplateLiteral": "warn",
-        "useEnumInitializers": "warn",
-        "useLiteralEnumMembers": "warn"
-      },
-			"suspicious": {
-        "noExplicitAny": "warn",
-        "useNamespaceKeyword": "warn",
-				"noArrayIndexKey": "warn"
-			}
-		}
+		"enabled": true
 	}
 }

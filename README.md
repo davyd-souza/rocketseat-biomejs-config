@@ -18,10 +18,10 @@ I'll try to keep this updated as much as possible, but I might miss something oc
   - [Legend](#legend)
   - [standard/](#standard)
   - [typescript-eslint/](#typescript-eslint)
-  - [react](#react-1)
-  - [react-hooks](#react-hooks)
-  - [jsx-a11y](#jsx-a11y)
-  - [eslint-plugin-next](#eslint-plugin-next)
+  - [react/](#react-1)
+  - [react-hooks/](#react-hooks)
+  - [jsx-a11y/](#jsx-a11y)
+  - [eslint-plugin-next/](#eslint-plugin-next)
 - [Reference](#reference)
 
 
@@ -459,11 +459,13 @@ Which configuration each technology uses:
 - [ ] no-typos [❌]
 - [ ] no-unwanted-polyfillio [❌]
 
+
 # Reference
-[standard](https://github.com/standard/eslint-config-standard/blob/master/src/index.ts)
-[typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts)
-[eslint-plugin-react/recommended](https://www.npmjs.com/package/eslint-plugin-react)
-[eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-[eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
-[eslint-plugin-next](https://nextjs.org/docs/pages/building-your-application/configuring/eslint#eslint-plugin)
-[Rules sources](https://biomejs.dev/linter/rules-sources/)
+
+- [standard](https://github.com/standard/eslint-config-standard/blob/master/src/index.ts)
+- [typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts)
+- [eslint-plugin-react/recommended](https://www.npmjs.com/package/eslint-plugin-react)
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-next](https://nextjs.org/docs/pages/building-your-application/configuring/eslint#eslint-plugin)
+- [Rules sources](https://biomejs.dev/linter/rules-sources/)

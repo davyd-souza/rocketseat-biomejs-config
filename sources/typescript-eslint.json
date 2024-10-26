@@ -1,0 +1,33 @@
+{
+	"$schema": "../node_modules/@biomejs/biome/configuration_schema.json",
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"a11y": {},
+			"complexity": {
+				"noUselessThisAlias": "error",
+				"noUselessTypeConstraint": "error"
+			},
+			"correctness": {
+				"useArrayLiterals": "error",
+				"noUnusedVariables": "error"
+			},
+			"nursery": {
+				"noCommonJs": "error"
+			},
+			"performance": {},
+			"security": {},
+			"style": {
+				"noNamespace": "error",
+				"useAsConstAssertion": "error"
+			},
+			"suspicious": {
+				"noExplicitAny": "error",
+				"noExtraNonNullAssertion": "error",
+				"noMisleadingInstantiator": "error",
+				"noUnsafeDeclarationMerging": "error",
+				"useNamespaceKeyword": "error"
+			}
+		}
+	}
+}

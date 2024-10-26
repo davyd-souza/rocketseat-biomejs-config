@@ -1,0 +1,24 @@
+{
+	"$schema": "../node_modules/@biomejs/biome/configuration_schema.json",
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"a11y": {
+				"useAltText": "warn",
+				"useValidAriaProps": "warn",
+				"useValidAriaValues": "warn",
+				"noAriaUnsupportedElements": "warn",
+				"useAriaPropsForRole": "warn"
+			},
+			"complexity": {},
+			"correctness": {},
+			"nursery": {
+				"useAriaPropsSupportedByRole": "warn"
+			},
+			"performance": {},
+			"security": {},
+			"style": {},
+			"suspicious": {}
+		}
+	}
+}

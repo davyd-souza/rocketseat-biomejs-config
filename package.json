@@ -1,15 +1,19 @@
 {
-  "name": "biome-config-rocketseat",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@biomejs/biome": "^1.5.1"
-  }
+	"name": "biomejs-config-rocketseat",
+	"version": "1.0.0",
+	"private": false,
+	"description": "BiomeJS config inspired by Rocketseat's eslint config",
+	"repository": {
+		"url": "davyd-souza/biomejs-config-rocketseat"
+	},
+	"exports": {
+		"./next": "./next.json",
+		"./node": "./node.json",
+		"./react": "./react.json"
+	},
+	"author": "Davyd Souza",
+	"license": "MIT",
+	"dependencies": {
+		"@biomejs/biome": "^1.9.4"
+	}
 }

@@ -3,47 +3,29 @@
 	"organizeImports": {
 		"enabled": true
 	},
-  "extends": ["./formatter.json"],
+	"extends": ["./formatter.json", "./sources/standard.json", "./sources/typescript-eslint.json"],
 	"linter": {
 		"enabled": true,
 		"rules": {
-      "recommended": true,
 			"a11y": {
-        "useButtonType": "off",
-				"useValidAriaProps": "warn",
-        "useValidAriaValues": "warn",
-				"noAriaUnsupportedElements": "warn",
-        "useAriaPropsForRole": "warn",
-				"noRedundantAlt": "warn",
-        "useAltText": "warn",
-				"noSvgWithoutTitle": "warn"
+				"noBlankTarget": "error"
 			},
-      "complexity": {
-        "noUselessEmptyExport": "warn",
-        "useOptionalChain": "warn",
-        "noUselessFragments": "off"
-      },
+			"complexity": {},
 			"correctness": {
-				"noUnusedVariables": "error",
-        "noUndeclaredVariables": "error",
-        "useHookAtTopLevel": "error"
+				"useJsxKeyInIterable": "error",
+				"noChildrenProp": "error",
+				"useExhaustiveDependencies": "error",
+				"useHookAtTopLevel": "error"
 			},
-      "nursery": {
-        "useGroupedTypeImport": "warn"
-      },
-      "security": {
-        "noDangerouslySetInnerHtml": "warn"
-      },
-      "style": {
-        "noNonNullAssertion": "warn",
-        "noUnusedTemplateLiteral": "warn",
-        "useEnumInitializers": "warn",
-        "useLiteralEnumMembers": "warn"
-      },
+			"nursery": {},
+			"performance": {},
+			"security": {
+				"noDangerouslySetInnerHtmlWithChildren": "error"
+			},
+			"style": {},
 			"suspicious": {
-        "noExplicitAny": "warn",
-        "useNamespaceKeyword": "warn",
-				"noArrayIndexKey": "warn"
+				"noCommentText": "error",
+				"noDuplicateJsxProps": "error"
 			}
 		}
 	}

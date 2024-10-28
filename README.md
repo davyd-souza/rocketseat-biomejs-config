@@ -43,7 +43,7 @@ Then create the file `biome.json` and add the following:
 
 ```
 {
-  "extends": ["rocketseat-biomejs-config/react|node|next.json"]
+  "extends": ["rocketseat-biomejs-config/react|node|next"]
 }
 ```
 
@@ -209,7 +209,7 @@ Which configuration each technology uses:
 - [x] no-irregular-whitespace [❌]
 - [ ] no-iterator [❌]
 - [x] no-labels [❌]
-  - # [allow only on loops](https://biomejs.dev/linter/rules/no-confusing-labels/)
+  - *[allow only on loops](https://biomejs.dev/linter/rules/no-confusing-labels/)
   - allowLoop: false
   - allowSwitch: false
 - [x] no-lone-blocks [❌]

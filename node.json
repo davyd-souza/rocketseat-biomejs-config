@@ -5,6 +5,9 @@
 	},
 	"extends": ["./formatter.json", "./sources/standard.json", "./sources/typescript-eslint.json"],
 	"linter": {
-		"enabled": true
+		"enabled": true,
+		"rules": {
+			"recommended": false
+		}
 	}
 }

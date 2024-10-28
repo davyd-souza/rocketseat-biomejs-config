@@ -7,6 +7,7 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
+			"recommended": false,
 			"a11y": {},
 			"complexity": {},
 			"correctness": {},
